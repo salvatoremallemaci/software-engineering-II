@@ -1,2 +1,2 @@
-# software-engineering-II
+# Software Engineering II
 Corso di "Software Engineering II" (01SQNOV), Laurea Magistrale in INGEGNERIA INFORMATICA, Politecnico di Torino
