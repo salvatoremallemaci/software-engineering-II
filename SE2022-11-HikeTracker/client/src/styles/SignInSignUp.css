@@ -1,0 +1,103 @@
+.box-login {
+    background-color: #0B111A;
+    color: white;
+    border: 2px solid #0B5ED7;
+    border-radius: 6px;
+}
+
+.login_btn {
+    border-radius: 0px !important;
+    width: 160px !important;
+    border: 2px solid #0B5ED7 !important;
+    font-weight: bold;
+    background-color: transparent !important;
+    --hover: #0B5ED7;
+    color: #0B5ED7 !important;
+}
+
+.login_btn:hover,
+.login_btn:focus {
+    color: white !important;
+    font-weight: bold;
+    box-shadow: inset 160px 0 0 0 var(--hover);
+}
+
+.box-signup {
+    background-color: #0B111A;
+    color: white;
+    border: 2px solid #198754;
+    border-radius: 6px;
+}
+
+.signup_btn {
+    border-radius: 0px !important;
+    width: 160px !important;
+    border: 2px solid #198754 !important;
+    font-weight: bold;
+    background-color: transparent !important;
+    --hover: #198754;
+    color: #198754 !important;
+}
+
+.signup_btn:hover,
+.signup_btn:focus {
+    color: white !important;
+    font-weight: bold;
+    box-shadow: inset 160px 0 0 0 var(--hover);
+}
+
+.form-sel{
+    width: 210px;
+    cursor: pointer;
+}
+
+.log-hut-icon{
+    width: 24px;
+    height: 24px;
+    filter: invert(48%) sepia(24%) saturate(7470%) hue-rotate(0deg) brightness(102%) contrast(104%);
+}
+
+.fit{
+    padding-right: 8px;
+}
+
+.end-signup{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.p-sign{
+    width: fit-content;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+
+.h6-sign{
+    width: fit-content;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #0B5ED7;
+    font-weight: bold;
+}
+
+.h6-sign:hover{
+    text-decoration: underline;
+}
+
+.h6-sign-in{
+    width: fit-content;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #198754;
+    font-weight: bold;
+}
+
+.h6-sign-in:hover{
+    text-decoration: underline;
+}
+
+.icon-signup{
+    filter: invert(61%) sepia(21%) saturate(843%) hue-rotate(100deg) brightness(96%) contrast(84%);
+}

@@ -1,0 +1,273 @@
+.hutSection {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background: #F5F4F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hike-img {
+  vertical-align: baseline;
+}
+
+.hut-title {
+  width: 600px !important;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: italic;
+  color: #FF6700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hut-title.background {
+  position: relative;
+  z-index: 1;
+}
+
+.hut-title.background span {
+  background: #F5F4F6;
+  padding: 0 15px;
+}
+
+.hut-title.double:before {
+  border-top: none;
+}
+
+.hut-title.double:after {
+  border-bottom: 2px solid #FF6700;
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #FF6700;
+  padding-right: 40px;
+  color: #000;
+}
+
+.input-search::placeholder {
+  color: #FF6700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #ffffff;
+  background-color: transparent;
+  pointer-events: painted;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn-search:focus~.input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #FF6700;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #FF6700;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: #000;
+  padding-right: 20px;
+}
+
+.btn-filter-hut {
+  background-color: #FF6700;
+  border-color: #FF6700;
+}
+
+.btn-filter-hut:hover {
+  background-color: #c75205;
+  border-color: #c75205;
+}
+
+.hutCardSection {
+  padding-bottom: 60px;
+  background: #F5F4F6;
+  border-bottom: 2px solid #4D4DFF ;
+}
+
+
+.hutCardBox {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.hut-card {
+  border: 3px solid #FF6700;
+  background: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 400px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 2);
+  transition: all .5s ease;
+}
+
+.hut-card:hover {
+  box-shadow: 0 0 8px 4px #c75205;
+}
+
+.hut-card-title {
+  font-style: italic;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #FF6700;
+  margin-top: 10px;
+}
+
+.card-top-img {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-top{
+  overflow: hidden;
+  border-radius: 8px 8px 0px 0px !important;
+}
+.card-top-img:hover {
+  transform: scale(1.2);
+}
+
+.card-bottom {
+  padding: 10px 20px;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.card-bottom::-webkit-scrollbar {
+  display: none;
+}
+
+.card-bottom {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.arrow-prev {
+  left: -25px;
+}
+
+.arrow-next {
+  right: -25px;
+}
+
+.arrow-prev,
+.arrow-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.remove-filter {
+  border-radius: 20px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+
+}
+
+.card-symbol{
+  width: 20px;
+  height: 20px;
+  fill: #FF6700;
+}
+
+.card-details{
+  display: inline;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.delete-btn{
+  background-color: transparent;
+  border-color: transparent;
+  padding:0px;
+}
+
+.delete-btn:hover{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.hut-img{
+  filter: invert(48%) sepia(24%) saturate(7470%) hue-rotate(0deg) brightness(102%) contrast(104%);
+  vertical-align: baseline;
+}

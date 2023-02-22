@@ -1,0 +1,191 @@
+.back{
+  background-image: url(../images/image3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  min-height: 100vh;
+}
+
+
+
+.back3{
+  background-image: url(../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  min-height: 100vh;
+}
+
+.title_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding-top: 14vh;
+  width: 100%;
+}
+
+.search_row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-size: 70px;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .title{
+      font-size: 50px;
+  }
+}
+
+
+.hike_box{
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+}
+
+.img_box{
+  width: auto;
+  height: 20vh;
+  overflow: hidden;
+}
+
+.box_img_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_col{
+  width: fit-content;
+}
+
+.btn_box{
+  border-radius: 0px !important;
+}
+
+.btn_box2{
+  border-radius: 0px !important;
+  width: 100px;
+}
+
+.box_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.box_btn2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.btn_ref{
+  border-radius: 0px !important;
+  max-width: fit-content;
+}
+
+.updateImageButton {
+  margin-left: 42px;
+}
+
+.img_box-hike{
+  border-radius: 8px;
+  padding: 0px;
+  overflow: hidden;
+  object-fit: cover;
+  border: 2px solid #30AC42;
+  max-width: 100%;
+  height: auto;
+}
+
+.man-hike-label label{
+  color: #30AC42;
+  font-weight: bold;
+}
+
+.man-hike-label .form-control, .man-hike-label .form-select{
+  border: 1px solid #30AC42;
+}
+
+.ref-btn{
+    border-radius: 0px !important;
+    width: 100%;
+    border: 2px solid blue !important;
+    font-weight: bold;
+    background-color: blue !important;
+    --hover: blue;
+    color: white !important;
+    transition: all .1s ease-out;
+  
+  }
+  
+  .ref-btn:hover,
+  .ref-btn:focus {
+    box-shadow: 0 0.6em 0.4em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }
+
+  .link-btn{
+    border-radius: 0px !important;
+    width: 100%;
+    border: 2px solid blueviolet !important;
+    font-weight: bold;
+    background-color: blueviolet !important;
+    --hover: blueviolet;
+    color: white !important;
+    transition: all .1s ease-out;
+  }
+  
+  .link-btn:hover,
+  .link-btn:focus {
+    box-shadow: 0 0.6em 0.4em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }
+
+  .add-man-btn{
+    border-radius: 0px !important;
+    border: 2px solid #0B5ED7 !important;
+    font-weight: bold;
+    background-color: #0B5ED7 !important;
+    --hover: #0B5ED7;
+    color: white !important;
+    transition: all .1s ease-out;
+  }
+
+  .add-man-btn:hover, 
+.add-man-btn:focus {
+  box-shadow: 0 0.6em 0.4em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.img_box-park{
+  border-radius: 8px;
+  padding: 0px;
+  overflow: hidden;
+  object-fit: cover;
+  border: 2px solid #4D4DFF;
+  max-width: 100%;
+  height: auto;
+}
+
+.man-park-label label{
+  color: #4D4DFF;
+  font-weight: bold;
+}
+
+.man-park-label .form-control, .man-park-label .form-select{
+  border: 1px solid #4D4DFF;
+}

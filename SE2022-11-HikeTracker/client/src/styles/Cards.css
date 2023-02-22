@@ -1,0 +1,138 @@
+.cards {
+    background: #fff;
+    border-bottom: 2px solid #FF6700;
+}
+
+.card:not(.tracked-hikes-card) {
+    border: 2px solid #30AC42;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17) !important;
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)) !important;
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)) !important;
+    border-radius: 10px;
+    text-decoration: none !important;
+    display: block;
+    margin-bottom: 2rem !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    width: 340px;
+    transition: all .5s ease;
+}
+
+.card:not(.tracked-hikes-card):hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 253) !important;
+}
+
+.overflow {
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.card_img {
+    height: 13rem;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    object-fit: cover;
+}
+
+.card_img:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+    .overflow {
+        max-height: 50vh;
+    }
+}
+
+.card_text {
+    text-decoration: none;
+    color: black;
+}
+
+.box_centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-more-btn {
+    border-radius: 0px !important;
+    width: fit-content !important;
+    font-weight: bold;
+    border: 2px solid #0B5ED7 !important;
+    background-color: #0B5ED7 !important;
+    --hover: #0B5ED7;
+    color: #fff !important;
+    transition: all .1s ease-in-out;
+}
+
+.show-more-btn:hover,
+.show-more-btn:focus {
+    box-shadow: 0 0.6em 0.4em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.card_link {
+    text-decoration: none;
+    color: black;
+}
+
+.hike-list-card {
+    cursor: pointer;
+}
+
+.card-title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-title:not(.tracked-hikes-card-title) {
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #30AC42;
+    width: fit-content;
+}
+
+.card-credit {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: end;
+}
+
+.card-text {
+    margin-bottom: 8px;
+}
+
+.card-body:not(.tracked-hikes-card-body) {
+    height: 17rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.card-body::-webkit-scrollbar {
+    display: none;
+}
+
+.card-body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.p-card {
+    display: inline;
+    font-weight: bold;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon-map {
+    filter: invert(49%) sepia(68%) saturate(487%) hue-rotate(77deg) brightness(96%) contrast(93%);
+}
